@@ -1,0 +1,4 @@
+module SSZipArchive {
+    umbrella header "/Users/xcode/Desktop/work/SPM/Dependencies/SSZipArchive/SSZipArchive/include/SSZipArchive.h"
+    export *
+}

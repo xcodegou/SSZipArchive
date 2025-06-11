@@ -19,7 +19,11 @@ let package = Package(
         .target(
             name: "SSZipArchive",
             path: "SSZipArchive",
-            publicHeadersPath: "include"
+            sources: [".", "minizip"],
+            publicHeadersPath: "include",
+            cSettings: [
+                .headerSearchPath("minizip"),
+            ]
         )
     ]
 ) 
